@@ -1,9 +1,12 @@
 package p02.chainofresponsability;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class TestaDescontos {
   public static void main(String[] args) {
     CalculadorDeDescontos calculador = new CalculadorDeDescontos();
-     
+
       Orcamento orcamento = new Orcamento(150.0);
 
       orcamento.adiciona(new Item("CANETA", 25.0));
